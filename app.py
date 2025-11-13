@@ -11,7 +11,11 @@ MEMBROS = "Luiz Fernando Brasão e João Pedro Giovannoni"
 @app.route('/info')
 def info():
     """Rota que retorna o nome dos integrantes da equipe"""
-    return MEMBROS
+    response = {
+        "Membros": MEMBROS,
+    }
+    
+    return jsonify(response)
 
 @app.route('/metricas')
 def metricas():
