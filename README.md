@@ -3,7 +3,7 @@
 Este projeto implementa um servidor web em Flask que exibe informações do sistema operacional.
 
 ## Integrantes da Equipe
-Luiz Fernando Brasão e João Pedro Giovannoni
+Luiz Fernando Brasão, João Pedro Giovannoni e Luis Felipe Tozzi
 
 O servidor estará disponível em https://socf-so-cloud-3p6l.onrender.com
 
