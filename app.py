@@ -6,7 +6,7 @@ import psutil
 app = Flask(__name__)
 
 # Informações dos integrantes da equipe
-MEMBROS = "Luiz Fernando Brasão e João Pedro Giovannoni"
+MEMBROS = "Luiz Fernando Brasão, João Pedro Giovannoni e Luis Felipe Tozzi"
 
 @app.route('/info')
 def info():
